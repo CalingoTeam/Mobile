@@ -1,6 +1,10 @@
-# Calingo - Mobile App
+<h1 align="center">Calingo - Mobile App</h1>
 
-The **Calingo** mobile app brings regional Brazilian expressions and quizzes to your pocket! This version allows users to learn, play, and explore the rich diversity of Brazilian Portuguese anywhere.
+<p align="center"> <img alt="Status" src="https://img.shields.io/badge/status-in%20development-yellow" /> <img alt="Java" src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white" /> <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white" /> <img alt="Retrofit" src="https://img.shields.io/badge/Retrofit-6E7C7C?logo=retrofit&logoColor=white" /> <img alt="Room" src="https://img.shields.io/badge/Room-3DDC84?logo=android&logoColor=white" /> <img alt="JUnit" src="https://img.shields.io/badge/JUnit-25A162?logo=junit5&logoColor=white" /> <img alt="Tests" src="https://img.shields.io/badge/tests-passing-brightgreen" /> <img alt="Repo size" src="https://img.shields.io/github/repo-size/CalingoTeam/Mobile" /> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CalingoTeam/Mobile" /> <img alt="CodeQL" src="https://github.com/CalingoTeam/Mobile/actions/workflows/codeql.yml/badge.svg" /> <img alt="Dependabot enabled" src="https://img.shields.io/badge/Dependabot-enabled-brightgreen?logo=dependabot" /> </p>
+
+<p align="center">
+  The <strong>Calingo</strong> mobile app brings regional Brazilian expressions and quizzes to your pocket! This version allows users to learn, play, and explore the rich diversity of Brazilian Portuguese anywhere.
+</p>
 
 ## 📲 Main Features
 
