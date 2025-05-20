@@ -3,4 +3,8 @@
     <style name="HintTextAppearance" parent="TextAppearance.AppCompat.Small">
         <item name="android:textSize">12sp</item>
     </style>
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>

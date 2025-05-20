@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Calingo</string>
+    <string name="login_text">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="img_description">Logo do App</string>
 </resources>
