@@ -4,5 +4,6 @@
     <string name="email_hint">Email</string>
     <string name="password_hint">Senha</string>
     <string name="login_button">Entrar</string>
+    <string name="expressao_dia">Expressão do dia</string>
     <string name="img_description">Logo do App</string>
 </resources>
