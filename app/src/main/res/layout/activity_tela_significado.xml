@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/container_txt"
+            style="@style/Container_txt"
+            android:layout_width="271dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="92dp"
+            android:background="@drawable/sub_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt1_expressao"
+            style="@style/Text_view_expressao"
+            android:layout_marginTop="16dp"
+            android:text="Tabacudo"
+            app:layout_constraintEnd_toEndOf="@+id/container_txt"
+            app:layout_constraintStart_toStartOf="@+id/container_txt"
+            app:layout_constraintTop_toTopOf="@id/container_txt" />
+
+        <TextView
+            android:id="@+id/curtida_arrudear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="3dp"
+            android:text="82"
+            app:layout_constraintBottom_toBottomOf="@id/container_txt"
+            app:layout_constraintEnd_toEndOf="@id/container_txt"
+            app:layout_constraintHorizontal_bias="0.208"
+            app:layout_constraintStart_toStartOf="@id/container_txt" />
+
+        <ImageButton
+            android:id="@+id/icon_like_arrudear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/icon_like"
+            app:layout_constraintBottom_toBottomOf="@id/container_txt"
+            app:layout_constraintEnd_toStartOf="@id/curtida_arrudear1" />
+
+        <TextView
+            android:id="@+id/deslike_arrudear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="3dp"
+            android:text="7"
+            app:layout_constraintBottom_toBottomOf="@id/container_txt"
+            app:layout_constraintEnd_toEndOf="@id/container_txt"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="@id/container_txt" />
+
+        <ImageButton
+            android:id="@+id/icon_deslike_arrudear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/icon_deslike"
+            app:layout_constraintBottom_toBottomOf="@id/container_txt"
+            app:layout_constraintEnd_toStartOf="@id/deslike_arrudear1" />
+
+
+        <View
+            android:id="@+id/container_significado"
+            style="@style/Container_txt"
+            android:layout_width="271dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="196dp"
+            android:background="@drawable/login_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.65"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_significado"
+            style="@style/Text_view_expressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siginificado"
+            app:layout_constraintEnd_toEndOf="@+id/container_significado"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="@+id/container_significado"
+            app:layout_constraintTop_toTopOf="@+id/container_significado" />
+
+        <TextView
+            android:id="@+id/significado"
+            style="@style/Text_view_expressao"
+            android:layout_width="224dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="48dp"
+            android:text="Expressão informal que significa bobo, tolo ou ingênuo. Pode ser usada de forma cômica ou pejorativa, dependendo do tom e do contexto. Em algumas situações, também pode indicar alguém desastrado ou que comete erros frequentes."
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/container_significado"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="@+id/container_significado"
+            app:layout_constraintTop_toTopOf="@+id/container_significado" />
+
+        <View
+            android:id="@+id/container_fonologia"
+            style="@style/Container_txt"
+            android:layout_width="271dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="328dp"
+            android:background="@drawable/login_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_fonologia"
+            style="@style/Text_view_expressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fonologia"
+            app:layout_constraintBottom_toBottomOf="@+id/container_fonologia"
+            app:layout_constraintEnd_toEndOf="@+id/container_fonologia"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="@+id/container_fonologia"
+            app:layout_constraintTop_toTopOf="@+id/container_fonologia"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/fono_tabacudo1"
+            style="@style/Text_view_expressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" /ta.ba.ˈku.du/"
+            app:layout_constraintBottom_toBottomOf="@+id/container_fonologia"
+            app:layout_constraintEnd_toEndOf="@+id/container_fonologia"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="@+id/container_fonologia"
+            app:layout_constraintTop_toTopOf="@+id/container_fonologia"
+            app:layout_constraintVertical_bias="0.397" />
+
+        <TextView
+            android:id="@+id/fono_tabacudo2"
+            style="@style/Text_view_expressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ta-ba-cu-do"
+            app:layout_constraintBottom_toBottomOf="@+id/container_fonologia"
+            app:layout_constraintEnd_toEndOf="@+id/container_fonologia"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="@+id/container_fonologia"
+            app:layout_constraintTop_toTopOf="@+id/container_fonologia"
+            app:layout_constraintVertical_bias="0.771" />
+
+        <View
+            android:id="@+id/container_usofrase"
+            style="@style/Container_txt"
+            android:layout_width="274dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="460dp"
+            android:background="@drawable/login_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.416"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_usofrase"
+            style="@style/Text_view_expressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uso em frase"
+            app:layout_constraintBottom_toBottomOf="@+id/container_usofrase"
+            app:layout_constraintEnd_toEndOf="@+id/container_usofrase"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="@+id/container_usofrase"
+            app:layout_constraintTop_toTopOf="@+id/container_usofrase"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/usofrase"
+            style="@style/Text_view_expressao"
+            android:layout_width="224dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="40dp"
+            android:text="'Deixa de ser tabacudo, homem! Era só apertar o botão certo.' 'Rapaz, tu é muito tabacudo mesmo, como é que tu esquece o aniversário da namorada?' "
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/container_usofrase"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="@+id/container_usofrase"
+            app:layout_constraintTop_toTopOf="@+id/container_usofrase" />
+
+        <View
+            android:id="@+id/container_sinonimo"
+            style="@style/Container_txt"
+            android:layout_width="275dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="576dp"
+            android:background="@drawable/login_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.316"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_sinonimo"
+            style="@style/Text_view_expressao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinônimos"
+            app:layout_constraintBottom_toBottomOf="@+id/container_sinonimo"
+            app:layout_constraintEnd_toEndOf="@+id/container_sinonimo"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/container_sinonimo"
+            app:layout_constraintTop_toTopOf="@+id/container_sinonimo"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/sinonimo"
+            style="@style/Text_view_expressao"
+            android:layout_width="224dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="44dp"
+            android:text="Abestalhado, Leso, Abestado, Mané, Bocó, Besta."
+            android:textAlignment="center"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/container_sinonimo"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/container_sinonimo"
+            app:layout_constraintTop_toTopOf="@+id/container_sinonimo" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav_inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCF0DA"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:menu="@menu/botton_nav_menu" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
