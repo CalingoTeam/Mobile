@@ -42,7 +42,7 @@ dependencies {
     implementation 'androidx.activity:activity:1.10.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
 
-    implementation 'com.google.firebase:firebase-auth:24.0.0'
+    implementation 'com.google.firebase:firebase-auth:24.0.1'
     implementation 'com.google.firebase:firebase-firestore:26.0.0'
 
     testImplementation 'org.mockito:mockito-core:5.18.0'
